@@ -1,7 +1,19 @@
 body {
     background-color: #EEF5FF;
+    text-align: center;
 }
 
 h1{
-    color: red;
+    color: #641934;
+}
+
+#container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.progetto {
+    width: 20vw;
+    height: 20vw;
+    background-color: red;
 }
