@@ -1,0 +1,56 @@
+body {
+    background-color: #FDF7E4;
+    text-align: center;
+}
+
+#container{
+    text-align: center;
+}
+
+#anagrafica {
+    height: 10vh;
+}
+
+#nome-cognome {
+    height: 5vh;
+}
+
+#dob-sesso {
+    height: 5vh;
+}
+
+#profilo {
+    height: 10vh;
+}
+
+#mail-password {
+    height: 5vh;
+}
+
+#immagine-profilo {
+    height: 5vh;
+}
+
+#voto {
+    height: 5vh;
+}
+
+label{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+button {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #DED0B6;
+}
+
+#div-hobby{
+    height: 25vh;
+}
+
+h1{
+    color: #38220F;
+}

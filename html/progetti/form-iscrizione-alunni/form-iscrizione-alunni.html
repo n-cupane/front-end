@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form iscrizione alunno</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Iscrizione alunni</h1>
+    <div id="container">
+        <form action="" method="POST">
+            
+            <div id="anagrafica">
+                <div id="nome-cognome">
+                    <label for="nome">Nome: </label>
+                    <input type="text" name="nome" id="nome" placeholder="Mario" required>
+                    <label for="cognome">Cognome: </label>
+                    <input type="text" name="cognome" id="cognome" placeholder="Rossi" required>
+                </div>
+                <div id="dob-sesso">
+                    <label for="DOB">Data di nascita: </label>
+                    <input type="date" name="DOB" id="DOB" required>
+                    <label for="Sesso">Sesso: </label>
+                    <label for="M">M</label>
+                    <input type="radio" name="sesso" id="M" value="M">
+                    <label for="F">F</label>
+                    <input type="radio" name="sesso" id="F" value="F">
+                </div>
+            </div>
+
+            <div id="profilo">
+                <div id="mail-password">
+                    <label for="email">E-mail: </label>
+                    <input type="email" name="email" id="email" required>
+                    <label for="password">Password: </label>
+                    <input type="password" name="password" id="password" required>
+                </div>
+                <div id="immagine-profilo">
+                    <label for="colore-immagine-profilo">Colore dell'immagine di profilo: </label>
+                    <select name="colore-immagine-profilo" id="colore-immagine-profilo">
+                        <option value="Bianco">Bianco</option>
+                        <option value="Nero">Nero</option>
+                        <option value="Rosso">Rosso</option>
+                        <option value="Blu">Blu</option>
+                        <option value="Giallo">Giallo</option>
+                        <option value="Verde">Verde</option>
+                        <option value="Arancione">Arancione</option>
+                    </select>
+                </div>
+            </div>
+
+            <div id="voto">
+                <label for="voto-scuola-media">Voto dell'esame di scuola media: </label>
+                <input type="number" name="voto-scuola-media" id="voto-scuola-media" min="6" max="10" required>
+            </div>
+
+            <div id="div-materie-preferite">
+                <label for="materie-preferite">Materie preferite:</label><br>
+                <textarea name="materie-preferite" id="materie-preferite" cols="60" rows="10"></textarea>
+            </div>
+
+            <div id="div-hobby">
+                <label for="hobby">Hobby e interessi:</label><br>
+                <textarea name="hobby" id="hobby" cols="60" rows="10"></textarea>
+            </div>
+
+            <div id="pulsanti">
+                <button type="reset">Reset</button>
+                <button type="submit">Invia dati</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prenotazioni</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <div><h1>Prenota</h1></div>
+    <div id="div-form">
+        <form action="" method="POST">
+            
+            <div id="elementi">
+                <div class="elemento-form">
+                    <label for="nome">Nome: </label>
+                    <input type="text" name="nome" id="nome" placeholder="Mario" required>
+                </div>
+    
+                <div class="elemento-form">
+                    <label for="cognome">Nome: </label>
+                    <input type="text" name="cognome" id="cognome" placeholder="Rossi" required>
+                </div>
+    
+                <div class="elemento-form">
+                    <label for="sesso">Sesso: </label>
+                    <label for="M">M</label>
+                    <input type="radio" name="sesso" id="M" value="M">
+                    <label for="F">F</label>
+                    <input type="radio" name="sesso" id="F" value="F">
+                </div>
+    
+                <div class="elemento-form">
+                    <label for="email">Indirizzo mail: </label>
+                    <input type="email" name="email" id="email" placeholder="mario.rossi@xxx.com" required>
+                </div>
+    
+                <div class="elemento-form">
+                    <label for="messaggio">Inserisci il tuo messaggio: </label><br>
+                    <textarea name="messaggio" id="messsaggio" cols="80" rows="10" required></textarea>
+                </div>
+            </div>
+
+            <div id="pulsanti">
+                <button type="submit">Invia</button>
+                <button type="reset">Reset</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
